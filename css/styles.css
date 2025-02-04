@@ -1065,6 +1065,16 @@ button {
   border-radius: 50%;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* Добавлено */
+  padding: 8px; /* Добавлено */
+  display: flex; /* Добавлено */
+  align-items: center; /* Добавлено */
+  justify-content: center; /* Добавлено */
+}
+
+.mobile-menu-close svg {
+  width: 8px;
+  height: 8px; /* Добавлено */
 }
 
 .mobile-menu-nav {
@@ -1078,6 +1088,7 @@ button {
   flex-direction: column;
   gap: 40px;
 }
+
 .menu-link-mobi {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -1086,6 +1097,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .menu-address {
   display: flex;
   align-items: flex-start;
@@ -1093,6 +1105,7 @@ button {
   flex-direction: column;
   gap: 24px;
 }
+
 .menu-link {
   font-style: normal;
   font-family: "Roboto", sans-serif;
@@ -1102,9 +1115,11 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .menu-link-hover {
   color: #404bbf;
 }
+
 .mobile-icon {
   display: flex;
   align-items: flex-start;
